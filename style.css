@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+*{
+    font-family: "Baloo Bhai 2", serif;}
+
+.parent{
+    height: 500px;
+    width: 300px;
+    border: 1px solid rgba(128, 128, 128, 0.11);
+    box-shadow: 1px 2px 2px grey;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20vh;
+    position:relative;
+}
+
+.bgimage{
+    background-image: url(/TRAVEL\ CARD\ USING\ CSS/travel.jpg);
+    border: 1px solid rgba(128, 128, 128, 0);
+    position: absolute;
+    top:9px;
+    left: 10px;
+    height: 210px;
+    width: 278px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    /* background: no-repeat; */
+    box-shadow: 1px 2px 2px grey;
+}
+.misc{
+    height: 50px;
+    width: 278px;
+    position: relative;
+    top: 240px;
+    left: 20px;
+    display: inline-flex;
+    justify-content: left;
+    align-items:stretch;
+}
+#mountain{
+    position: absolute;
+    left: 69px;
+    border: 1px solid rgb(226, 225, 225);
+    /* box-shadow: 1px 2px 2px grey; */
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+#nature{
+    position: absolute;
+    /* left: 69px; */
+    border: 1px solid rgb(226, 225, 225);
+    /* box-shadow: 1px 2px 2px grey; */
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.heading{
+    position: absolute;
+    top: 258px;
+    left: 15px;
+}
+.text{
+    position:absolute;
+    top: 326px;
+    left: 15px;
+    width: 280px;
+    font-size: 15px;
+    color: rgb(165, 164, 164);
+}
+.rdmore{
+    position: absolute;
+    display: flex;
+    top: 436px;
+    left: 97px;
+    border: 0px solid rgb(158, 204, 241, 0.486);
+    background-color:rgba(158, 204, 241, 0.486) ;
+    text-align: center;
+    align-items:center;
+    justify-content: space-evenly;
+font-size: 15px;
+color: rgb(75, 172, 252);
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+}
